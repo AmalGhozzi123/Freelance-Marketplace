@@ -1,0 +1,54 @@
+/* Clients.css */
+
+/* Styles généraux du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif; /* Utilisez une police lisible et professionnelle */
+  }
+  
+  /* Styles des en-têtes de colonnes */
+  th {
+    background-color: #2b0b51;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px; /* Augmentez la marge intérieure pour un aspect plus aéré */
+    text-align: left;
+  }
+  
+  /* Styles des cellules du tableau */
+  td {
+    border: 1px solid #ddd;
+    padding: 15px; /* Augmentez la marge intérieure pour un aspect plus aéré */
+    text-align: left;
+  }
+  
+  /* Styles des lignes paires du corps du tableau */
+  tbody tr:nth-child(even) {
+    background-color: #f5f5f5; /* Légère variation pour améliorer la lisibilité */
+  }
+  
+  /* Styles au survol des lignes du corps du tableau */
+  tbody tr:hover {
+    background-color: #e1f5fe;
+  }
+  
+  /* Styles des boutons d'actions */
+  .actions button {
+    margin-right: 8px;
+    padding: 10px 15px; /* Ajustez la taille des boutons */
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-size: 14px; /* Ajustez la taille de la police pour un aspect plus équilibré */
+  }
+  
+  /* Styles au survol des boutons d'actions */
+  .actions button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,103 @@
+// Orders.scss
+
+.orders {
+    display: flex;
+    justify-content: center;
+  
+    .container {
+      width: 1400px;
+      padding: 50px 0;
+  
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  
+        button {
+          font-weight: 500;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+        }
+  
+       
+      }
+  
+      table {
+        width: 100%;
+  
+        tr {
+          height: 50px;
+  
+          th {
+            text-align: left;
+            background-color: #1d61bf;
+            color: white;
+            padding-left: 30px;
+          }
+  
+          td {
+            padding-left: 30px;
+            img {
+              width: 70px;
+              height: 40px;
+              object-fit: cover;
+            
+            }
+            #confirmButton {
+                background-color: #189349;
+                color: white;
+                padding: 10px;
+                border-radius: 15px;
+                color:#ffffff;
+                border: none;
+                font-weight: bold;
+        
+                &:hover {
+                  background-color: #166336;
+                }
+              }
+        
+              #contactButton {
+                background-color: #4e43b5; // Green color for contact button
+                color: white;
+                padding: 10px;
+                border-radius: 15px;
+                color:#ffffff;
+                border: none;
+                font-weight: bold;
+        
+                &:hover {
+                  background-color: #362672;
+                }
+              }
+              #deleteButton {
+                background-color: #be3e3e; // Green color for contact button
+                color: white;
+                padding: 10px;
+                border-radius: 15px;
+                color:#ffffff;
+                border: none;
+                font-weight: bold;
+        
+                &:hover {
+                  background-color: #b3280c;
+                }
+              }
+          }
+  
+          &:nth-child(even) {
+            background-color: #1dbf730f;
+          }
+        }
+      }
+    }
+  
+    .alert {
+      background-color: #f44336;
+      color: white;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  

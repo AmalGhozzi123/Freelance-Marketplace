@@ -1,0 +1,136 @@
+.detail-service-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top:40px;
+    margin: 50px auto;
+    background-color: #fff;
+    display: flex;
+  max-width:1200px;
+    .left {
+      width: 60%;
+      padding-right: 20px;
+  
+      .service-title {
+        margin-bottom: 15px;
+  
+        h2 {
+          font-size: 24px;
+          margin-bottom: 5px;
+        }
+      }
+  
+      .service-cover {
+        margin-bottom: 15px;
+  
+        h3 {
+          font-size: 18px;
+          margin-bottom: 8px;
+        }
+  
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+      }
+  
+      .service-desc {
+        margin-bottom: 15px;
+  
+        h2 {
+          font-size: 24px;
+          margin-bottom: 5px;
+        }
+  
+        .service-description {
+          font-size: 16px;
+        }
+      }
+    }
+  
+    .right {
+      width: 60%;
+      padding-left: 20px;
+  
+      .service-info {
+        margin-bottom: 15px;
+  
+        div {
+          font-size: 16px;
+          margin-bottom: 8px;
+  
+          strong {
+            margin-right: 5px;
+          }
+        }
+      }
+  
+      .service-features {
+        margin-bottom: 15px;
+  
+        h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            font-size: 16px;
+            margin-bottom: 5px;
+  
+            img {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+  
+      .service-images {
+        margin-bottom: 15px;
+  
+        h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+  
+        .slider {
+          // Ajoutez des styles selon vos besoins pour le slider
+        }
+  
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+      }
+  
+      .action-buttons {
+        button {
+          padding: 10px;
+          margin-right: 10px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+  
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+  
+          &:first-child {
+            background-color: #d9534f; // Rouge pour "Cancel"
+          }
+  
+          &:last-child {
+            background-color: #5bc0de; // Bleu pour "Create Order"
+          }
+        }
+      }
+    }
+  }
+  

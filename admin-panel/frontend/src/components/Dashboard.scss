@@ -1,0 +1,43 @@
+/* GlobalStyles.scss */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  #sidebar {
+    width: 230px;
+    height:100%;
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  #sidebar ul.nav {
+    padding-top: 20px;
+  }
+  
+  #sidebar ul.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  #sidebar ul.nav a:hover {
+    background-color: #495057;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

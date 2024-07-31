@@ -1,0 +1,98 @@
+// DetailService.scss
+
+.detail-service-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .service-section {
+    margin-bottom: 20px;
+  }
+  
+  .service-title h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-desc {
+    margin-bottom: 20px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .service-info {
+    margin-bottom: 20px;
+  }
+  
+  .service-info div {
+    margin-bottom: 10px;
+  }
+  
+  .service-features {
+    margin-bottom: 20px;
+  }
+  
+  .service-features h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service-features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-features li {
+    margin-bottom: 5px;
+  }
+  
+  .service-images {
+    margin-bottom: 20px;
+  }
+  
+  .service-images h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service-images .slider {
+    max-width: 100%;
+  }
+  
+  .service-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .service-cover {
+    margin-bottom: 20px;
+  }
+  
+  .service-cover h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service-cover img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .edit-button,
+  .delete-icon {
+    width: 40px; 
+    height: 30px;
+    cursor: pointer;
+  }
+  

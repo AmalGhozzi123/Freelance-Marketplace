@@ -1,0 +1,60 @@
+
+
+
+
+// Styles généraux pour le formulaire de paiement
+.pay {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  $visa-image: 'public/img/visa.png';
+$mastercard-image: 'public/img/MasterCard.jpeg';
+$american-express-image: 'public/img/American.jpeg';
+$discover-image: 'public/img/Discover.jpeg';
+
+.visa {
+  background-image: url($visa-image);
+}
+
+.mastercard {
+  background-image: url($mastercard-image);
+}
+
+.american-express {
+  background-image: url($american-express-image);
+}
+
+.discover {
+  background-image: url($discover-image);
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #139013;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8e0909;
+  }
+  
+}
+
