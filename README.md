@@ -52,3 +52,6 @@ The Freelancy project focuses on creating an online freelance marketplace. It ai
 
 - **Software Environment**: Visual Studio Code, StarUML, Google Chrome, Postman, Selenium. 💻
 - **Languages and Tools**: MongoDB, Node.js, Express.js, React.js. 🛠️
+  
+## 🧩 Additional Information
+Feel free to modify and extend this project to suit your needs. If you encounter any issues or need further assistance, you can contact me at `amalghozzi@outlook.com`.
